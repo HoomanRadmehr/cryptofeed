@@ -39,14 +39,14 @@ define_macros = []
 # verify value at runtime with cryptofeed.types.COMPILED_WITH_ASSERTIONS
 define_macros.append(('CYTHON_WITHOUT_ASSERTIONS', None))
 
-extension = Extension("cryptofeed.types", ["cryptofeed/types.pyx"],
+extension = Extension("krypton_cryptofeed.types", ["krypton_cryptofeed/types.pyx"],
                       extra_compile_args=extra_compile_args,
                       define_macros=define_macros)
 
 setup(
     name="krypton_cryptofeed",
     ext_modules=cythonize([extension], language_level=3, force=True),
-    version="0.1",
+    version="0.2",
     author="Hooman Radmehr",
     author_email="devops.yas@gmail.com",
     description="Cryptocurrency Exchange Websocket Data Feed Handler",
