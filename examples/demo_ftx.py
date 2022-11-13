@@ -4,9 +4,9 @@ Copyright (C) 2017-2022 Bryant Moscon - bmoscon@gmail.com
 Please see the LICENSE file for the terms and conditions
 associated with this software.
 '''
-from cryptofeed import FeedHandler
-from cryptofeed.defines import ORDER_INFO, TRADES, FILLS
-from cryptofeed.exchanges import FTX
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.defines import ORDER_INFO, TRADES, FILLS
+from krypton_cryptofeed.exchanges import FTX
 
 
 # Examples of some handlers for different updates. These currently don't do much.

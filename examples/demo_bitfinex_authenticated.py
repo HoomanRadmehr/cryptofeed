@@ -1,6 +1,6 @@
-from cryptofeed import FeedHandler
-from cryptofeed.defines import BUY, LIMIT
-from cryptofeed.exchanges import BITFINEX
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.defines import BUY, LIMIT
+from krypton_cryptofeed.exchanges import BITFINEX
 
 
 def main():

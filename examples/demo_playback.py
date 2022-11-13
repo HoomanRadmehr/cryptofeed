@@ -7,8 +7,8 @@ associated with this software.
 import os
 import glob
 
-from cryptofeed.defines import COINBASE, L2_BOOK, TRADES, TICKER, BID, ASK
-from cryptofeed.raw_data_collection import playback
+from krypton_cryptofeed.defines import COINBASE, L2_BOOK, TRADES, TICKER, BID, ASK
+from krypton_cryptofeed.raw_data_collection import playback
 
 
 async def ticker(ticker, receipt_timestamp):

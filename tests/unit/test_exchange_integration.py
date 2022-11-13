@@ -6,7 +6,7 @@ associated with this software.
 '''
 import os
 
-from cryptofeed.exchanges import EXCHANGE_MAP
+from krypton_cryptofeed.exchanges import EXCHANGE_MAP
 
 
 def test_exchanges_fh():

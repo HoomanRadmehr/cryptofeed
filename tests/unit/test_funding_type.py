@@ -1,5 +1,5 @@
-from cryptofeed.exchange import Exchange
-from cryptofeed.types import Funding
+from krypton_cryptofeed.exchange import Exchange
+from krypton_cryptofeed.types import Funding
 
 import datetime
 from decimal import Decimal

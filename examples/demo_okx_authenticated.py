@@ -4,9 +4,9 @@ Copyright (C) 2017-2022 Bryant Moscon - bmoscon@gmail.com
 Please see the LICENSE file for the terms and conditions
 associated with this software.
 '''
-from cryptofeed import FeedHandler
-from cryptofeed.callback import OrderInfoCallback
-from cryptofeed.defines import OKX, ORDER_INFO
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.callback import OrderInfoCallback
+from krypton_cryptofeed.defines import OKX, ORDER_INFO
 
 
 async def order(oi, receipt_timestamp):

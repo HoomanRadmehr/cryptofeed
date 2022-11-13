@@ -7,9 +7,9 @@ associated with this software.
 from datetime import datetime
 from decimal import Decimal
 
-from cryptofeed import FeedHandler
-from cryptofeed.defines import GOOD_TIL_CANCELED, L2_BOOK, LIMIT, SELL, TICKER, TRADES
-from cryptofeed.exchanges import Binance, BinanceDelivery, BinanceFutures
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.defines import GOOD_TIL_CANCELED, L2_BOOK, LIMIT, SELL, TICKER, TRADES
+from krypton_cryptofeed.exchanges import Binance, BinanceDelivery, BinanceFutures
 
 
 info = BinanceDelivery.info()

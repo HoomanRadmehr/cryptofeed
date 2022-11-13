@@ -4,10 +4,10 @@ Copyright (C) 2018-2022 Bryant Moscon - bmoscon@gmail.com
 Please see the LICENSE file for the terms and conditions
 associated with this software.
 '''
-from cryptofeed import FeedHandler
-from cryptofeed.backends.arctic import FundingArctic, TickerArctic, TradeArctic
-from cryptofeed.defines import FUNDING, TICKER, TRADES
-from cryptofeed.exchanges import Bitfinex, Bitmex, Coinbase
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.backends.arctic import FundingArctic, TickerArctic, TradeArctic
+from krypton_cryptofeed.defines import FUNDING, TICKER, TRADES
+from krypton_cryptofeed.exchanges import Bitfinex, Bitmex, Coinbase
 
 
 def main():

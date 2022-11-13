@@ -1,6 +1,6 @@
-from cryptofeed import FeedHandler
-from cryptofeed.defines import BALANCES, ORDER_INFO, POSITIONS
-from cryptofeed.exchanges import Binance, BinanceDelivery, BinanceFutures
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.defines import BALANCES, ORDER_INFO, POSITIONS
+from krypton_cryptofeed.exchanges import Binance, BinanceDelivery, BinanceFutures
 
 
 async def balance(b, receipt_timestamp):

@@ -6,10 +6,10 @@ associated with this software.
 '''
 from datetime import datetime as dt
 
-from cryptofeed import FeedHandler
-from cryptofeed.backends.aggregate import Throttle
-from cryptofeed.defines import L2_BOOK
-from cryptofeed.exchanges import Coinbase
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.backends.aggregate import Throttle
+from krypton_cryptofeed.defines import L2_BOOK
+from krypton_cryptofeed.exchanges import Coinbase
 
 
 async def callback(data, receipt):

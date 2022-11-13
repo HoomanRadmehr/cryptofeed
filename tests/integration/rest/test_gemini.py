@@ -7,8 +7,8 @@ associated with this software.
 import asyncio
 import pytest
 
-from cryptofeed.defines import BID, ASK, LIMIT, BUY, CANCELLED
-from cryptofeed.exchanges import Gemini
+from krypton_cryptofeed.defines import BID, ASK, LIMIT, BUY, CANCELLED
+from krypton_cryptofeed.exchanges import Gemini
 
 
 public = Gemini(config='config.yaml')

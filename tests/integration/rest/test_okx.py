@@ -8,8 +8,8 @@ associated with this software.
 import asyncio
 from decimal import Decimal
 
-from cryptofeed.exchanges import OKX
-from cryptofeed.types import Candle
+from krypton_cryptofeed.exchanges import OKX
+from krypton_cryptofeed.types import Candle
 
 o = OKX()
 

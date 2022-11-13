@@ -10,10 +10,10 @@ from multiprocessing import Process
 
 from yapic import json
 
-from cryptofeed import FeedHandler
-from cryptofeed.backends.socket import BookSocket, TradeSocket
-from cryptofeed.defines import L2_BOOK, TRADES
-from cryptofeed.exchanges import Coinbase
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.backends.socket import BookSocket, TradeSocket
+from krypton_cryptofeed.defines import L2_BOOK, TRADES
+from krypton_cryptofeed.exchanges import Coinbase
 
 
 def receiver(port):

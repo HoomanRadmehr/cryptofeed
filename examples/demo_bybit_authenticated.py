@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-from cryptofeed import FeedHandler
-from cryptofeed.defines import BYBIT, ORDER_INFO, FILLS
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.defines import BYBIT, ORDER_INFO, FILLS
 
 
 async def order(feed, symbol, data: dict, receipt_timestamp):

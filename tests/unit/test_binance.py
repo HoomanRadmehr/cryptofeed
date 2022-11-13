@@ -6,7 +6,7 @@ associated with this software.
 '''
 import random
 
-from cryptofeed.exchanges import Binance
+from krypton_cryptofeed.exchanges import Binance
 
 
 def test_binance_address_generation():

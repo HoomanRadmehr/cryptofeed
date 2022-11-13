@@ -6,23 +6,23 @@ associated with this software.
 '''
 from decimal import Decimal
 
-from cryptofeed import FeedHandler
-from cryptofeed.defines import CANDLES, BID, ASK, BLOCKCHAIN, FUNDING, GEMINI, L2_BOOK, L3_BOOK, LIQUIDATIONS, OPEN_INTEREST, PERPETUAL, TICKER, TRADES, INDEX
-from cryptofeed.exchanges import (FTX, Binance, BinanceUS, BinanceFutures, Bitfinex, Bitflyer, AscendEX, Bitmex, Bitstamp, Bittrex, Coinbase, Gateio,
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.defines import CANDLES, BID, ASK, BLOCKCHAIN, FUNDING, GEMINI, L2_BOOK, L3_BOOK, LIQUIDATIONS, OPEN_INTEREST, PERPETUAL, TICKER, TRADES, INDEX
+from krypton_cryptofeed.exchanges import (FTX, Binance, BinanceUS, BinanceFutures, Bitfinex, Bitflyer, AscendEX, Bitmex, Bitstamp, Bittrex, Coinbase, Gateio,
                                   HitBTC, Huobi, HuobiDM, HuobiSwap, Kraken, OKCoin, OKX, Poloniex, Bybit, KuCoin, Bequant, Upbit, Probit)
-from cryptofeed.exchanges.bitdotcom import BitDotCom
-from cryptofeed.exchanges.bitget import Bitget
-from cryptofeed.exchanges.cryptodotcom import CryptoDotCom
-from cryptofeed.exchanges.delta import Delta
-from cryptofeed.exchanges.fmfw import FMFW
-from cryptofeed.exchanges.independent_reserve import IndependentReserve
-from cryptofeed.exchanges.kraken_futures import KrakenFutures
-from cryptofeed.exchanges.blockchain import Blockchain
-from cryptofeed.exchanges.bithumb import Bithumb
-from cryptofeed.symbols import Symbol
-from cryptofeed.exchanges.phemex import Phemex
-from cryptofeed.exchanges.dydx import dYdX
-from cryptofeed.exchanges.deribit import Deribit
+from krypton_cryptofeed.exchanges.bitdotcom import BitDotCom
+from krypton_cryptofeed.exchanges.bitget import Bitget
+from krypton_cryptofeed.exchanges.cryptodotcom import CryptoDotCom
+from krypton_cryptofeed.exchanges.delta import Delta
+from krypton_cryptofeed.exchanges.fmfw import FMFW
+from krypton_cryptofeed.exchanges.independent_reserve import IndependentReserve
+from krypton_cryptofeed.exchanges.kraken_futures import KrakenFutures
+from krypton_cryptofeed.exchanges.blockchain import Blockchain
+from krypton_cryptofeed.exchanges.bithumb import Bithumb
+from krypton_cryptofeed.symbols import Symbol
+from krypton_cryptofeed.exchanges.phemex import Phemex
+from krypton_cryptofeed.exchanges.dydx import dYdX
+from krypton_cryptofeed.exchanges.deribit import Deribit
 
 
 # Examples of some handlers for different updates. These currently don't do much.

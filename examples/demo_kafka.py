@@ -5,10 +5,10 @@ Please see the LICENSE file for the terms and conditions
 associated with this software.
 '''
 from typing import Optional
-from cryptofeed import FeedHandler
-from cryptofeed.backends.kafka import BookKafka, TradeKafka
-from cryptofeed.defines import L2_BOOK, TRADES
-from cryptofeed.exchanges import Coinbase
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.backends.kafka import BookKafka, TradeKafka
+from krypton_cryptofeed.defines import L2_BOOK, TRADES
+from krypton_cryptofeed.exchanges import Coinbase
 
 
 """

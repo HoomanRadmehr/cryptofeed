@@ -7,9 +7,9 @@ associated with this software.
 import asyncio
 from decimal import Decimal
 
-from cryptofeed.defines import BINANCE, BINANCE_DELIVERY, BINANCE_FUTURES, BUY, SELL
-from cryptofeed.exchanges import BinanceFutures, BinanceDelivery, Binance
-from cryptofeed.types import Candle
+from krypton_cryptofeed.defines import BINANCE, BINANCE_DELIVERY, BINANCE_FUTURES, BUY, SELL
+from krypton_cryptofeed.exchanges import BinanceFutures, BinanceDelivery, Binance
+from krypton_cryptofeed.types import Candle
 
 
 b = Binance()

@@ -8,10 +8,10 @@ from multiprocessing import Process
 
 from yapic import json
 
-from cryptofeed import FeedHandler
-from cryptofeed.backends.zmq import BookZMQ, TickerZMQ
-from cryptofeed.defines import L2_BOOK, TICKER
-from cryptofeed.exchanges import Coinbase, Kraken
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.backends.zmq import BookZMQ, TickerZMQ
+from krypton_cryptofeed.defines import L2_BOOK, TICKER
+from krypton_cryptofeed.exchanges import Coinbase, Kraken
 
 
 def receiver(port):

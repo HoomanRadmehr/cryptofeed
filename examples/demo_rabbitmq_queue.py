@@ -6,10 +6,10 @@ associated with this software.
 '''
 from multiprocessing import Process
 
-from cryptofeed import FeedHandler
-from cryptofeed.backends.rabbitmq import BookRabbit
-from cryptofeed.defines import L2_BOOK
-from cryptofeed.exchanges import Kraken
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.backends.rabbitmq import BookRabbit
+from krypton_cryptofeed.defines import L2_BOOK
+from krypton_cryptofeed.exchanges import Kraken
 
 
 def callback(ch, method, properties, body):

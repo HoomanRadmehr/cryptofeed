@@ -9,9 +9,9 @@ from decimal import Decimal
 
 import pytest
 
-from cryptofeed.defines import BUY, CANCELLED, LIMIT, PENDING
-from cryptofeed.exchanges import Coinbase
-from cryptofeed.types import Candle, Ticker, Trade
+from krypton_cryptofeed.defines import BUY, CANCELLED, LIMIT, PENDING
+from krypton_cryptofeed.exchanges import Coinbase
+from krypton_cryptofeed.types import Candle, Ticker, Trade
 
 
 public = Coinbase(config='config.yaml')

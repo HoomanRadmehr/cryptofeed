@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
-from cryptofeed import FeedHandler
-from cryptofeed.callback import OrderInfoCallback, BalancesCallback, UserFillsCallback
-from cryptofeed.defines import DERIBIT, ORDER_INFO, BALANCES, FILLS
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.callback import OrderInfoCallback, BalancesCallback, UserFillsCallback
+from krypton_cryptofeed.defines import DERIBIT, ORDER_INFO, BALANCES, FILLS
 
 
 async def order(feed, symbol, data: dict, receipt_timestamp):

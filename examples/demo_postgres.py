@@ -4,10 +4,10 @@ Copyright (C) 2018-2022 Bryant Moscon - bmoscon@gmail.com
 Please see the LICENSE file for the terms and conditions
 associated with this software.
 '''
-from cryptofeed import FeedHandler
-from cryptofeed.backends.postgres import CandlesPostgres, IndexPostgres, TickerPostgres, TradePostgres, OpenInterestPostgres, LiquidationsPostgres, FundingPostgres, BookPostgres
-from cryptofeed.defines import CANDLES, INDEX, L2_BOOK, TICKER, TRADES, OPEN_INTEREST, LIQUIDATIONS, FUNDING
-from cryptofeed.exchanges import Bybit, Binance
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.backends.postgres import CandlesPostgres, IndexPostgres, TickerPostgres, TradePostgres, OpenInterestPostgres, LiquidationsPostgres, FundingPostgres, BookPostgres
+from krypton_cryptofeed.defines import CANDLES, INDEX, L2_BOOK, TICKER, TRADES, OPEN_INTEREST, LIQUIDATIONS, FUNDING
+from krypton_cryptofeed.exchanges import Bybit, Binance
 
 
 postgres_cfg = {'host': '127.0.0.1', 'user': 'postgres', 'db': 'cryptofeed', 'pw': 'password'}

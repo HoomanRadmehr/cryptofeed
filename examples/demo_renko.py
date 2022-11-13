@@ -6,10 +6,10 @@ associated with this software.
 '''
 from datetime import datetime
 
-from cryptofeed import FeedHandler
-from cryptofeed.backends.aggregate import RenkoFixed
-from cryptofeed.defines import TRADES
-from cryptofeed.exchanges import Bitmex
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.backends.aggregate import RenkoFixed
+from krypton_cryptofeed.defines import TRADES
+from krypton_cryptofeed.exchanges import Bitmex
 
 
 async def renko(data=None):

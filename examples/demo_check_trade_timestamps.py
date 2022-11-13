@@ -3,8 +3,8 @@ import os
 import time
 from datetime import datetime
 
-from cryptofeed import FeedHandler
-from cryptofeed.defines import TRADES
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.defines import TRADES
 
 
 # Gathers the first trade of each exchange and prints out info on the timestamps.

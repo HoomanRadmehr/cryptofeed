@@ -1,5 +1,5 @@
 import pytest
-from cryptofeed.types import COMPILED_WITH_ASSERTIONS, Ticker
+from krypton_cryptofeed.types import COMPILED_WITH_ASSERTIONS, Ticker
 
 
 @pytest.mark.skipif(not COMPILED_WITH_ASSERTIONS, reason="cython assertions not enabled")

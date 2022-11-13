@@ -5,11 +5,11 @@ Please see the LICENSE file for the terms and conditions
 associated with this software.
 '''
 import asyncio
-from cryptofeed.defines import ASK, BID
+from krypton_cryptofeed.defines import ASK, BID
 from datetime import datetime as dt, timedelta
 from decimal import Decimal
 
-from cryptofeed.exchanges import Deribit
+from krypton_cryptofeed.exchanges import Deribit
 
 
 d = Deribit()

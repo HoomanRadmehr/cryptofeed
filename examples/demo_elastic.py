@@ -4,10 +4,10 @@ Copyright (C) 2018-2022 Bryant Moscon - bmoscon@gmail.com
 Please see the LICENSE file for the terms and conditions
 associated with this software.
 '''
-from cryptofeed import FeedHandler
-from cryptofeed.backends.elastic import BookElastic, FundingElastic, TradeElastic
-from cryptofeed.defines import FUNDING, L2_BOOK, TRADES
-from cryptofeed.exchanges import Bitmex, Coinbase
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.backends.elastic import BookElastic, FundingElastic, TradeElastic
+from krypton_cryptofeed.defines import FUNDING, L2_BOOK, TRADES
+from krypton_cryptofeed.exchanges import Bitmex, Coinbase
 
 
 """

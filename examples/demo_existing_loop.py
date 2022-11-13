@@ -6,9 +6,9 @@ associated with this software.
 '''
 import asyncio
 
-from cryptofeed import FeedHandler
-from cryptofeed.defines import BID, ASK, COINBASE, L2_BOOK, TICKER, TRADES
-from cryptofeed.exchanges import Binance, Coinbase
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.defines import BID, ASK, COINBASE, L2_BOOK, TICKER, TRADES
+from krypton_cryptofeed.exchanges import Binance, Coinbase
 
 
 # Examples of some handlers for different updates. These currently don't do much.

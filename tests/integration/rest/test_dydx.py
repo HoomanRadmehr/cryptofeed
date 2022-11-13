@@ -5,8 +5,8 @@ Please see the LICENSE file for the terms and conditions
 associated with this software.
 '''
 import asyncio
-from cryptofeed.defines import ASK, BID
-from cryptofeed.exchanges import dYdX
+from krypton_cryptofeed.defines import ASK, BID
+from krypton_cryptofeed.exchanges import dYdX
 
 
 d = dYdX()

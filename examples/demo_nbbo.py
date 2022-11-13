@@ -4,8 +4,8 @@ Copyright (C) 2017-2022 Bryant Moscon - bmoscon@gmail.com
 Please see the LICENSE file for the terms and conditions
 associated with this software.
 '''
-from cryptofeed import FeedHandler
-from cryptofeed.exchanges import Coinbase, Gemini, Kraken
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.exchanges import Coinbase, Gemini, Kraken
 
 
 def nbbo_update(symbol, bid, bid_size, ask, ask_size, bid_feed, ask_feed):

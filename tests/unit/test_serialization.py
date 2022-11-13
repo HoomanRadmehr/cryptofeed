@@ -8,8 +8,8 @@ from decimal import Decimal
 from time import time
 import json
 
-from cryptofeed.types import OrderInfo, OrderBook, Trade, Ticker, Liquidation, Funding, Candle
-from cryptofeed.defines import BUY, PENDING, LIMIT, UNFILLED
+from krypton_cryptofeed.types import OrderInfo, OrderBook, Trade, Ticker, Liquidation, Funding, Candle
+from krypton_cryptofeed.defines import BUY, PENDING, LIMIT, UNFILLED
 
 
 def test_order_info():

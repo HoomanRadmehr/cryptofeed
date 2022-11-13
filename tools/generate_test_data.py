@@ -10,10 +10,10 @@ import random
 
 import uvloop
 
-from cryptofeed.feedhandler import FeedHandler
-from cryptofeed.exchanges import EXCHANGE_MAP
-from cryptofeed.raw_data_collection import AsyncFileCallback
-from cryptofeed.defines import BINANCE, BINANCE_FUTURES, BINANCE_US, BITFINEX, L2_BOOK, TRADES, TICKER, CANDLES, EXX
+from krypton_cryptofeed.feedhandler import FeedHandler
+from krypton_cryptofeed.exchanges import EXCHANGE_MAP
+from krypton_cryptofeed.raw_data_collection import AsyncFileCallback
+from krypton_cryptofeed.defines import BINANCE, BINANCE_FUTURES, BINANCE_US, BITFINEX, L2_BOOK, TRADES, TICKER, CANDLES, EXX
 from check_raw_dump import main as check_dump
 
 asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())

@@ -4,10 +4,10 @@ Copyright (C) 2018-2022 Bryant Moscon - bmoscon@gmail.com
 Please see the LICENSE file for the terms and conditions
 associated with this software.
 '''
-from cryptofeed import FeedHandler
-from cryptofeed.backends.redis import BookRedis, BookStream, CandlesRedis, FundingRedis, OpenInterestRedis, TradeRedis
-from cryptofeed.defines import CANDLES, FUNDING, L2_BOOK, OPEN_INTEREST, TRADES
-from cryptofeed.exchanges import Bitfinex, Bitmex, Coinbase, Gemini, Binance
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.backends.redis import BookRedis, BookStream, CandlesRedis, FundingRedis, OpenInterestRedis, TradeRedis
+from krypton_cryptofeed.defines import CANDLES, FUNDING, L2_BOOK, OPEN_INTEREST, TRADES
+from krypton_cryptofeed.exchanges import Bitfinex, Bitmex, Coinbase, Gemini, Binance
 
 
 def main():

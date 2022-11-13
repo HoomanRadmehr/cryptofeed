@@ -1,6 +1,6 @@
-from cryptofeed import FeedHandler
-from cryptofeed.defines import LIQUIDATIONS
-from cryptofeed.exchanges import EXCHANGE_MAP
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.defines import LIQUIDATIONS
+from krypton_cryptofeed.exchanges import EXCHANGE_MAP
 
 
 async def liquidations(data, receipt):

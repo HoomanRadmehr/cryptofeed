@@ -5,10 +5,10 @@ Please see the LICENSE file for the terms and conditions
 associated with this software.
 '''
 import asyncio
-from cryptofeed.defines import ASK, BID, BUY
+from krypton_cryptofeed.defines import ASK, BID, BUY
 from decimal import Decimal
 
-from cryptofeed.exchanges.ftx import FTX
+from krypton_cryptofeed.exchanges.ftx import FTX
 
 
 f = FTX(config='config.yaml')

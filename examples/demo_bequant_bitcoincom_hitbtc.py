@@ -6,11 +6,11 @@ associated with this software.
 '''
 
 from decimal import Decimal
-from cryptofeed.connection import AsyncConnection
-from cryptofeed.callback import BalancesCallback, TransactionsCallback, TickerCallback
+from krypton_cryptofeed.connection import AsyncConnection
+from krypton_cryptofeed.callback import BalancesCallback, TransactionsCallback, TickerCallback
 import pprint
-from cryptofeed import FeedHandler
-from cryptofeed.defines import ASK, BEQUANT, HITBTC, BID, L2_BOOK, ORDER_INFO, BALANCES, TRANSACTIONS, TICKER, CANDLES, TRADES
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.defines import ASK, BEQUANT, HITBTC, BID, L2_BOOK, ORDER_INFO, BALANCES, TRANSACTIONS, TICKER, CANDLES, TRADES
 
 '''
 Bequant and HitBTC all share the same API.

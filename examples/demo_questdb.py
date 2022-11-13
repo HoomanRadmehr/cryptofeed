@@ -4,11 +4,11 @@ Copyright (C) 2018-2022 Bryant Moscon - bmoscon@gmail.com
 Please see the LICENSE file for the terms and conditions
 associated with this software.
 '''
-from cryptofeed import FeedHandler
-from cryptofeed.backends.quest import BookQuest, CandlesQuest, FundingQuest, TickerQuest, TradeQuest
-from cryptofeed.defines import CANDLES, FUNDING, L2_BOOK, TICKER, TRADES
-from cryptofeed.exchanges import Bitmex, Coinbase
-from cryptofeed.exchanges.binance import Binance
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.backends.quest import BookQuest, CandlesQuest, FundingQuest, TickerQuest, TradeQuest
+from krypton_cryptofeed.defines import CANDLES, FUNDING, L2_BOOK, TICKER, TRADES
+from krypton_cryptofeed.exchanges import Bitmex, Coinbase
+from krypton_cryptofeed.exchanges.binance import Binance
 
 QUEST_HOST = '127.0.0.1'
 QUEST_PORT = 9009

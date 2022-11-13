@@ -12,9 +12,9 @@ from collections import defaultdict
 from random import shuffle
 from time import time
 
-from cryptofeed import FeedHandler
-from cryptofeed.defines import L2_BOOK, OPEN_INTEREST, BINANCE, BINANCE_FUTURES
-from cryptofeed.exchanges import Binance, BinanceFutures
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.defines import L2_BOOK, OPEN_INTEREST, BINANCE, BINANCE_FUTURES
+from krypton_cryptofeed.exchanges import Binance, BinanceFutures
 
 
 class Counter:

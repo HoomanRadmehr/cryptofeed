@@ -7,8 +7,8 @@ associated with this software.
 import asyncio
 import pytest
 
-from cryptofeed.defines import ASK, BID, KRAKEN
-from cryptofeed.exchanges.kraken import Kraken
+from krypton_cryptofeed.defines import ASK, BID, KRAKEN
+from krypton_cryptofeed.exchanges.kraken import Kraken
 
 
 kraken = Kraken(config='config.yaml')

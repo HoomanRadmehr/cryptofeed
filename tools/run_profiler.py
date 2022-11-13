@@ -4,8 +4,8 @@ Copyright (C) 2017-2022 Bryant Moscon - bmoscon@gmail.com
 Please see the LICENSE file for the terms and conditions
 associated with this software.
 '''
-from cryptofeed import FeedHandler
-from cryptofeed.defines import COINBASE, TRADES, L2_BOOK
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.defines import COINBASE, TRADES, L2_BOOK
 
 
 async def trade(feed, symbol, order_id, timestamp, side, amount, price, receipt_timestamp, order_type):

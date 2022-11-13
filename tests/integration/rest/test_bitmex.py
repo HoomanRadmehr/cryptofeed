@@ -7,8 +7,8 @@ associated with this software.
 import asyncio
 from decimal import Decimal
 
-from cryptofeed.defines import ASK, BID
-from cryptofeed.exchanges import Bitmex
+from krypton_cryptofeed.defines import ASK, BID
+from krypton_cryptofeed.exchanges import Bitmex
 
 
 b = Bitmex()

@@ -11,10 +11,10 @@ import aiohttp
 from gcloud.aio.pubsub import subscribe, PublisherClient, SubscriberClient, SubscriberMessage
 from yapic import json
 
-from cryptofeed import FeedHandler
-from cryptofeed.backends.gcppubsub import TradeGCPPubSub
-from cryptofeed.defines import TRADES
-from cryptofeed.exchanges import Coinbase
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.backends.gcppubsub import TradeGCPPubSub
+from krypton_cryptofeed.defines import TRADES
+from krypton_cryptofeed.exchanges import Coinbase
 
 
 '''

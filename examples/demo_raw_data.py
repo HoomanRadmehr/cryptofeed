@@ -4,10 +4,10 @@ Copyright (C) 2017-2022 Bryant Moscon - bmoscon@gmail.com
 Please see the LICENSE file for the terms and conditions
 associated with this software.
 '''
-from cryptofeed import FeedHandler
-from cryptofeed.defines import L2_BOOK, TICKER, TRADES, OPEN_INTEREST
-from cryptofeed.exchanges import Coinbase, BinanceFutures
-from cryptofeed.raw_data_collection import AsyncFileCallback
+from krypton_cryptofeed import FeedHandler
+from krypton_cryptofeed.defines import L2_BOOK, TICKER, TRADES, OPEN_INTEREST
+from krypton_cryptofeed.exchanges import Coinbase, BinanceFutures
+from krypton_cryptofeed.raw_data_collection import AsyncFileCallback
 
 
 def main():

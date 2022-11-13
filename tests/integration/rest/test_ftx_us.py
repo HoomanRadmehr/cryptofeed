@@ -7,10 +7,10 @@ associated with this software.
 import asyncio
 import pytest
 
-from cryptofeed.defines import ASK, BID, BUY, SELL
+from krypton_cryptofeed.defines import ASK, BID, BUY, SELL
 from decimal import Decimal
 
-from cryptofeed.exchanges.ftx_us import FTXUS
+from krypton_cryptofeed.exchanges.ftx_us import FTXUS
 
 
 f = FTXUS(config='config.yaml')
